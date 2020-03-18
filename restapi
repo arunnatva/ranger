@@ -1,0 +1,2 @@
+#Here is the ranger REST API call to extract all policies. This uses knox sso url for ranger. However, this call works with direct ranger url as well.
+curl -ikv -u arun.natva -H "Content-Type: application/json" -X GET "https://knoxfqdn.domain:8443/gateway/sso-topology/ranger/service/public/v2/api/policy"
